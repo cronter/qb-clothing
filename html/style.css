@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .container {
-    height: 100vh;
+  height: 100vh;
 }
 
 ::-webkit-inner-spin-button {
-    display: none;
+  display: none;
 }
 
 .clothing-menu-container {
-    display: none;
+  display: none;
     margin-top: .5vh;
     margin-right: 5vh;
     position: absolute;
@@ -38,16 +39,16 @@
 }
 
 .clothing-menu-header-btn:hover {
-    color: #444444;
+   color: #444444;
     cursor: pointer;
 }
 
 .selected {
-    color: #dc143c;
+color: #eab050;
 }
 
-.clothing-menu-header-btn>p {
-    font-family: 'Poppins', sans-serif;
+.clothing-menu-header-btn > p {
+     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 1vh;
     letter-spacing: 0.1vh;
@@ -55,7 +56,7 @@
 }
 
 .clothing-menu-header-cameras {
-    position: absolute;
+ position: absolute;
     height: 5.5vh;
     width: 102%;
     top: -2.3vh;
@@ -74,20 +75,20 @@
 }
 
 .selected-cam {
-    color: #dc143c;
+ color: #eab050;
 }
 
 .clothing-menu-header-camera-btn:hover {
-    color: #444444;
+      color: #444444;
     cursor: pointer;
 }
 
-.clothing-menu-header-camera-btn>i {
-    font-size: 1.4vh;
+.clothing-menu-header-camera-btn > i {
+  font-size: 1.4vh;
 }
 
 .clothing-menu-roomOutfits-container {
-    display: none;
+ display: none;
     position: absolute;
     margin: 0 auto;
     left: 0.3vh;
@@ -111,25 +112,25 @@
 }
 
 .clothing-menu-outfit-option-button {
-    position: relative;
+  position: relative;
     text-align: center;
     line-height: 4.8vh;
     width: 60%;
     height: 40%;
     margin: 0 auto;
     top: 2.3vh;
-    background-color: #dc143c;
+    background-color: #eab050;
     border-radius: 0.75vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-outfit-option-button:hover {
-    background-color: #444444;
+  background-color: #444444;
     cursor: pointer;
 }
 
-.clothing-menu-outfit-option-button>p {
-    color: #ededed;
+.clothing-menu-outfit-option-button > p {
+ color: #ededed;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.1vh;
@@ -137,25 +138,25 @@
 }
 
 .clothing-menu-myOutfit-option-button {
-    position: absolute;
+   position: absolute;
     text-align: center;
     line-height: 4.8vh;
     width: 40%;
     height: 40%;
     left: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #eab050;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-myOutfit-option-button:hover {
-    background-color: #444444;
+     background-color: #444444;
     cursor: pointer;
 }
 
-.clothing-menu-myOutfit-option-button>p {
-    color: #ededed;
+.clothing-menu-myOutfit-option-button > p {
+   color: #ededed;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -164,24 +165,24 @@
 }
 
 .clothing-menu-myOutfit-option-button-remove {
-    position: absolute;
+     position: absolute;
     text-align: center;
     line-height: 4.8vh;
     width: 40%;
     height: 40%;
     right: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #eab050;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-myOutfit-option-button-remove:hover {
-    background-color: #444444;
+   background-color: #444444;
 }
 
-.clothing-menu-myOutfit-option-button-remove>p {
-    color: #ededed;
+.clothing-menu-myOutfit-option-button-remove > p {
+  color: #ededed;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -190,7 +191,7 @@
 }
 
 .clothing-menu-character-container {
-    display: none;
+     display: none;
     position: absolute;
     margin: 0 auto;
     left: 0.3vh;
@@ -213,8 +214,34 @@
     overflow-y: scroll !important;
 }
 
+
+.clothing-menu-singleArm-container{
+
+   display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 86vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
 .clothing-menu-accessoires-container {
-    display: none;
+display: none;
+    position: absolute;
+    margin: 0 auto;
+    left: 0.3vh;
+    right: 0;
+    top: 9vh;
+    height: 86vh;
+    width: 92%;
+    overflow-y: scroll !important;
+}
+
+.clothing-menu-facefeature-container {
+display: none;
     position: absolute;
     margin: 0 auto;
     left: 0.3vh;
@@ -226,21 +253,21 @@
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
     background-color: rgb(245 245 245 / 0%);
 }
 
 ::-webkit-scrollbar {
-    width: 0.6vh;
+  width: 0.6vh;
     background-color: rgb(245 245 245 / 0%);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #dc143c;
+   background-color: #eab050;
 }
 
 .clothing-menu-option {
-    position: relative;
+   position: relative;
     width: 100%;
     height: 14%;
 }
@@ -253,7 +280,7 @@
     margin-bottom: -15px;
 }
 
-.clothing-menu-option-header>p {
+.clothing-menu-option-header > p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -262,7 +289,7 @@
 }
 
 .clothing-menu-option-item {
-    position: relative;
+  position: relative;
     float: left;
     height: 50%;
     width: 40%;
@@ -271,12 +298,12 @@
 }
 
 .clothing-menu-option-item-left {
-    position: absolute;
+  position: absolute;
     bottom: 0;
     left: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #eab050;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -285,17 +312,17 @@
 }
 
 .clothing-menu-option-item-left:hover {
-    background-color: #444444;
+  background-color: #444444;
     cursor: pointer;
 }
 
 .clothing-menu-option-item-right {
-    position: absolute;
+  position: absolute;
     bottom: 0;
     right: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #eab050;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -304,12 +331,12 @@
 }
 
 .clothing-menu-option-item-right:hover {
-    background-color: #444444;
+  background-color: #444444;
     cursor: pointer;
 }
 
 .item-number {
-    position: absolute;
+ position: absolute;
     width: 25%;
     height: 60%;
     top: 2.8vh;
@@ -327,7 +354,20 @@
     transition: all 0.1s linear;
 }
 
+.item-number:focus {
+  border-bottom: 2px solid rgb(252, 151, 151);
+}
+
 .clothing-menu-option-item-header {
+  position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1vh;
+    letter-spacing: 0.1vh;
+    color: #ededed;
+}
+
+.clothing-menu-option-item-header2 {
     position: absolute;
     text-transform: uppercase;
     font-weight: bold;
@@ -336,13 +376,105 @@
     color: #ededed;
 }
 
-.clothing-menu-option-item-header>p {
-    font-family: 'Poppins', sans-serif;
-    padding: 0.2vh;
+.buy-btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: rgb(61, 61, 61);
+  font-family: sans-serif;
+
+  position: absolute;
+
+  left: 17vh;
+  top: 2vh;
+  transform: translateX(-50%);
+  font-size: 0.8vh;
+  letter-spacing: 0.07vh;
+  transition: all 0.1s linear;
+  text-transform: uppercase;
+  z-index: 2000;
+  font-weight: bold;
+  color: white;
+}
+
+.help-info{
+  position: absolute;
+  right: 49vh;
+  top: 39vh;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.help-btn{
+
+  width: 10vh;
+  height: 10vh;
+  right: 2vh;
+  font-size: 8vh;
+  display: flex;
+  animation: blinker 1s linear infinite;
+  background-color: #181a27;
+  color: #eab050;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+@keyframes blinker {
+  10% {
+    opacity: 0;
+  }
+}
+
+.help-text{
+  padding: 15px;
+  max-width: 170px;
+  background-color: #181a27;
+  color: white;
+  position: absolute;
+  right: 45vh;
+  top: 50vh;
+  font-family: 'Lato', sans-serif;
+  display: none;
+
+  border-radius: 5px;
+
+}
+
+.help-text p{
+  margin-bottom: 2px;
+  text-indent: 2px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #8c9cb3;
+
+}
+
+
+.help-text h1{
+  font-size: 14px;
+  margin-top:2px;
+  border-bottom: 1px solid white;
+  text-indent: 2px;
+  margin-bottom: 3px;
+  padding-bottom: 8px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.help-info:hover ~ .help-text{
+  display: block;
+}
+
+.clothing-menu-option-item-header > p {
+  font-family: 'Poppins', sans-serif;
+    padding-top: 2vh;
 }
 
 .clothing-menu-option-buttons {
-    position: absolute;
+position: absolute;
     bottom: 0vh;
     width: 100%;
     height: 3vh;
@@ -353,17 +485,17 @@
     float: right;
     height: 100%;
     width: 33.33%;
-    background-color: #dc143c;
+    background-color: #eab050;
     transition: all 1s linear;
 }
 
 .clothing-menu-option-button:hover {
-    background-color: #444444;
+   background-color: #444444;
     cursor: pointer;
 }
 
-.clothing-menu-option-button>p {
-    line-height: 3.1vh;
+.clothing-menu-option-button > p {
+  line-height: 3.1vh;
     font-size: 1.3vh;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.1vh;
@@ -373,7 +505,7 @@
 }
 
 .clothing-menu-save-outfit-name {
-    display: none;
+   display: none;
     position: relative;
     width: 30vh;
     height: 18vh;
@@ -383,8 +515,46 @@
     border-radius: 0.7vh;
 }
 
+.clothing-menu-select-packaged h1{
+  color: white;
+  font-family:sans-serif;
+  padding:6px;
+  font-size: 19px;
+}
+
+.clothing-menu-select-packaged {
+  display: none;
+  position: relative;
+  width: 40vh;
+  height: 25vh;
+  background: #424953;
+  margin: 0 auto;
+  top: 30%;
+  border-radius: 0.7vh;
+}
+
+
+.clothing-menu-noclothes h1{
+  color: white;
+  font-family:sans-serif;
+  padding:6px;
+  font-size: 19px;
+}
+
+.clothing-menu-noclothes {
+  display: none;
+  position: relative;
+  width: 40vh;
+  height: 25vh;
+  background: #424953;
+  margin: 0 auto;
+  top: 30%;
+  padding: 20px;
+  border-radius: 0.7vh;
+}
+
 .clothing-menu-save-outfit-name-buttons {
-    position: absolute;
+     position: absolute;
     bottom: 0;
     width: 100%;
     height: 17%;
@@ -395,7 +565,7 @@
 
 .clothing-menu-save-outfit-name-button {
     position: relative;
-    background: #dc143c;
+    background: #eab050;
     width: 50%;
     height: 100%;
     float: left;
@@ -405,12 +575,12 @@
 }
 
 .clothing-menu-save-outfit-name-button:hover {
-    background: #444444;
+ background: #444444;
     cursor: pointer;
 }
 
-.clothing-menu-save-outfit-name-button>p {
-    font-family: 'Poppins', sans-serif;
+.clothing-menu-save-outfit-name-button > p {
+   font-family: 'Poppins', sans-serif;
     font-size: 1.1vh;
     letter-spacing: 0.1vh;
     text-transform: uppercase;
@@ -419,15 +589,15 @@
 }
 
 .clothing-menu-save-outfit-name-header {
-    position: relative;
+  position: relative;
     width: 100%;
     height: 20%;
     text-align: center;
     line-height: 5vh;
 }
 
-.clothing-menu-save-outfit-name-header>p {
-    font-family: 'Poppins', sans-serif;
+.clothing-menu-save-outfit-name-header > p {
+ font-family: 'Poppins', sans-serif;
     font-size: 1.7vh;
     letter-spacing: 0.1vh;
     text-transform: uppercase;
@@ -436,7 +606,7 @@
 }
 
 #outfit-name {
-    position: absolute;
+  position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -452,8 +622,12 @@
     border-radius: .7vh;
 }
 
+#outfit-name:focus {
+  border-bottom: 3px solid #f73b3b;
+}
+
 #outfit-name {
-    color: #ededed;
+     color: #ededed;
     font-family: sans-serif;
     font-size: 1.75vh;
     letter-spacing: 0.1vh;
@@ -462,7 +636,7 @@
 }
 
 #outfit-name::placeholder {
-    color: rgba(255, 255, 255, 0.404);
+     color: rgba(255, 255, 255, 0.404);
     font-family: 'Poppins', sans-serif;
     font-size: 1.7vh;
     letter-spacing: 0.1vh;
@@ -471,7 +645,7 @@
 }
 
 .change-camera-buttons {
-    display: none;
+ display: none;
     position: absolute;
     margin: 0 auto;
     left: 0;
@@ -481,7 +655,7 @@
 }
 
 .change-camera-button {
-    position: relative;
+  position: relative;
     height: 80%;
     width: 50%;
     float: left;
@@ -491,30 +665,30 @@
 }
 
 .change-camera-button:hover {
-    background: #dc143c;
+   background: #eab050;
     cursor: pointer;
 }
 
-.change-camera-button>i {
+.change-camera-button > i {
     font-size: 3vh;
     color: #ededed;
     line-height: 5.5vh;
 }
 
 .change-camera-footer {
-    position: absolute;
+  position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
     height: 20%;
-    background: #dc143c;
+    background: #eab050;
     line-height: 1.5vh;
     border-bottom-left-radius: .8vh;
     border-bottom-right-radius: .8vh;
 }
 
-.change-camera-footer>p {
-    font-family: 'Poppins', sans-serif;
+.change-camera-footer > p {
+     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 0.8vh;
     text-transform: uppercase;
@@ -522,11 +696,15 @@
     letter-spacing: 0.1vh;
 }
 
+.slider {
+  width: 100% !important;
+}
+
 .slidecontainer {
     width: 100%;
 }
 
-.slider {
+.slider2 {
     appearance: none;
     width: 100%;
     height: 25px;
@@ -536,23 +714,96 @@
     transition: opacity .2s;
 }
 
-.slider {
+.slider2 {
     position: absolute;
     left: 0!important;
     top: 1.5em!important;
 }
 
-.slider:hover {
+.slider2:hover {
     opacity: 1;
 }
 
-.slider::-webkit-slider-thumb {
+.sliderr::-webkit-slider2-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
     height: 25px;
     background: #dc143c;
     cursor: pointer;
+}
+
+input[type="range"] {
+  width: 85%;
+  -webkit-appearance: none;
+  height: 20px;
+  background-color: rgb(61, 61, 61);
+  color: #e9e9e9;
+
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  position: absolute;
+  top: 3vh;
+}
+
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #e9e9e9;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 30%;
+  transition: 0.2s;
+}
+
+input::-webkit-slider-thumb:hover {
+  background: #e9e9e9;
+  width: 25px;
+  height: 25px;
+}
+
+input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #181a27;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+input::-moz-range-thumb:hover {
+  background-color: rgba(24, 26, 39, 0.9);
+  width: 25px;
+  height: 25px;
+}
+
+
+.basket{
+  display:none;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  background-color: #eab050;
+
+  padding:7px;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  transform: translateX(-50%);
+}
+
+
+.basket h1{
+
+    font-family: sans-serif;
+
 }
 
 .facemix-labels {

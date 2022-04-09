@@ -6,20 +6,20 @@ version '1.0.0'
 
 ui_page 'html/index.html'
 
-shared_script 'config.lua'
-
-server_scripts {
-	'@oxmysql/lib/MySQL.lua',
-	'server/main.lua'
+shared_scripts { 
+	'config.lua'
 }
 
+server_script 'server/main.lua'
 client_script 'client/main.lua'
 
 files {
 	'html/index.html',
 	'html/style.css',
 	'html/reset.css',
-	'html/script.js'
+	'html/*.js'
 }
 
-lua54 'yes'
+dependencies {
+	'qb-core'
+}
